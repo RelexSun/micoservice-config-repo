@@ -1,0 +1,6 @@
+eureka:
+  server:
+    enable-self-preservation: false # fast eviction
+  instance:
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 20
